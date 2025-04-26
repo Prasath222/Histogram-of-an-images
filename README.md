@@ -1,29 +1,37 @@
-Histogram-of-an-images
-Aim
+
+# Developed By: hari prasath p
+# Register Number: 212224230084
+
+
+
+# Histogram-of-an-images
+## Aim
 To obtain a histogram for finding the frequency of pixels in an Image with pixel values ranging from 0 to 255. Also write the code using OpenCV to perform histogram equalization.
 
-Software Required:
+## Software Required:
 Anaconda - Python 3.7
 
-Algorithm:
-Step1:
+## Algorithm:
+### Step1:
 Read the gray and color image using imread()
 
-Step2:
+### Step2:
 Print the image using imshow().
 
-Step3:
+### Step3:
 Use calcHist() function to mark the image in graph frequency for gray and color image.
 
-step4:
+### step4:
 Use calcHist() function to mark the image in graph frequency for gray and color image.
 
-Step5:
+### Step5:
 The Histogram of gray scale image and color image is shown.
 
-Program:
-# Developed By: SANJAY S
-# Register Number: 212222230132
+
+## Program:
+```
+# Developed By: hari prasath p
+# Register Number: 212224230084
 
 
 !pip install opencv-python
@@ -72,26 +80,36 @@ cv2.waitKey(0)
 cv2.destroyAllWindows()
 
 
-Output:
-Input Grayscale Image and Color Image
-image
+```
+## Output:
+### Input Grayscale Image and Color Image
+![image](https://github.com/user-attachments/assets/9c93ba99-a35d-44b3-9114-7acb136c368e)
 
-Histogram of Grayscale Image and any channel of Color Image
-Grayscale Image
-image
+### Histogram of Grayscale Image and any channel of Color Image
 
-image
+#### Grayscale Image
 
-Color Image
-image
+![image](https://github.com/user-attachments/assets/eb7e421b-ad69-4757-9037-cf1b0085f08b)
 
-image
+![image](https://github.com/user-attachments/assets/3de3c73f-6bf2-4b01-96ca-0583244668b5)
 
-Histogram Equalization of Grayscale Image.
-image
+#### Color Image
 
-image
+![image](https://github.com/user-attachments/assets/335eb738-c9cd-465d-ab3c-d58dabce4b49)
 
-Result:
+![image](https://github.com/user-attachments/assets/a12235d1-28ec-4e0e-83e2-3d6285b49d0b)
+
+### Histogram Equalization of Grayscale Image.
+
+![image](https://github.com/user-attachments/assets/46994668-8072-42bb-9941-693aadc88e86)
+
+![image](https://github.com/user-attachments/assets/78c6b286-b9dc-405d-9780-0580a6b06f8b)
+
+
+
+
+## Result: 
 Thus the histogram for finding the frequency of pixels in an image with pixel values ranging from 0 to 255 is obtained. Also,histogram equalization is done for the gray scale image using OpenCV.
 
+# Developed By: hari prasath p
+# Register Number: 212224230084
